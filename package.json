@@ -1,0 +1,29 @@
+{
+  "name": "typeorm-lru-cache",
+  "version": "0.0.1",
+  "description": "Provides an lru-in-memory cache for typeorm",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sajjad Karimi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typeorm": "^0.3.15",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "lru-cache": "^9.1.1",
+    "tslib": "^2.5.0"
+  },
+  "peerDependencies": {
+    "typeorm": "*"
+  }
+}
