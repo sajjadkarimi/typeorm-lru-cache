@@ -1,6 +1,10 @@
 {
   "name": "typeorm-lru-cache",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajjadkarimi/typeorm-lru-cache"
+  },
   "description": "Provides an lru-in-memory cache for typeorm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
