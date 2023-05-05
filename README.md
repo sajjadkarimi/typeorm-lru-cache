@@ -2,7 +2,7 @@
 
 An in-memory lru cache for typeorm
 
-Badically just a wrapper for [lru-cache](https://www.npmjs.com/package/lru-cache)
+Basically just a wrapper for [lru-cache](https://www.npmjs.com/package/lru-cache)
 
 ## Usage
 
